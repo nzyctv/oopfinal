@@ -7,7 +7,7 @@ public class MainFrame extends javax.swing.JFrame {
         initComponents();
     }
 
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+ 
     private void initComponents() {
 
         Frame1 = new javax.swing.JPanel();
@@ -68,11 +68,11 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel1.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainDetails.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        MainDetails.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         MainDetails.setForeground(new java.awt.Color(255, 255, 255));
         MainDetails.setText("MEMBER DETAILS");
 
-        MainInquiry.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MainInquiry.setFont(new java.awt.Font("Segoe UI", 1, 14));
         MainInquiry.setForeground(new java.awt.Color(255, 255, 255));
         MainInquiry.setText("Member Inquiry");
 
@@ -96,7 +96,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel2.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainSex.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainSex.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainSex.setText("Sex:");
 
         MainGenderClass.setText("M");
@@ -121,7 +121,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel3.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainDate.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainDate.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainDate.setForeground(new java.awt.Color(255, 255, 255));
         MainDate.setText("Reporting Date:");
 
@@ -149,7 +149,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel4.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainID.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainID.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainID.setText("Reporting ID:");
 
         MainReportingID.setText("00-0000000-0");
@@ -174,7 +174,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel5.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainEr.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        MainEr.setFont(new java.awt.Font("Segoe UI", 1, 14));
         MainEr.setForeground(new java.awt.Color(255, 255, 255));
         MainEr.setText("Latest ER Name:");
 
@@ -200,7 +200,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel6.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainClaimStatus.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainClaimStatus.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainClaimStatus.setText("Claim Flag Status:");
 
         MainFlagStatus.setText("NO CLAIM");
@@ -228,7 +228,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel7.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainNumStatus.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainNumStatus.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainNumStatus.setForeground(new java.awt.Color(255, 255, 255));
         MainNumStatus.setText("SS Number Status:");
 
@@ -254,7 +254,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel8.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainCoverage.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainCoverage.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainCoverage.setText("Coverage Status:");
 
         MainStatus.setText("COVERED EMPLOYEE");
@@ -282,7 +282,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel9.setBackground(new java.awt.Color(64, 123, 153));
 
-        AddContactInfo.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        AddContactInfo.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         AddContactInfo.setForeground(new java.awt.Color(255, 255, 255));
         AddContactInfo.setText("ADDRESS & CONTACT INFORMATION");
 
@@ -302,7 +302,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel10.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainHomeAdd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainHomeAdd.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainHomeAdd.setText("Local Home Address:");
 
         MainAdd.setText("Sampaguita Village Trece Martirez ");
@@ -327,7 +327,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel11.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainMailingAdd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainMailingAdd.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainMailingAdd.setText("Local Mailing Address:");
 
         javax.swing.GroupLayout Panel11Layout = new javax.swing.GroupLayout(Panel11);
@@ -346,7 +346,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel12.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainLandline.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainLandline.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainLandline.setText("Landline:");
 
         javax.swing.GroupLayout Panel12Layout = new javax.swing.GroupLayout(Panel12);
@@ -365,7 +365,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel13.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainMobNum.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainMobNum.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainMobNum.setText("Mobile:");
 
         MainNum.setText("09123456789");
@@ -390,7 +390,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel14.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainEmail.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainEmail.setFont(new java.awt.Font("Segoe UI", 0, 14));
         MainEmail.setText("Email Address:");
 
         MainSampleEmail.setText("sample@gmail.com");
@@ -415,7 +415,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel15.setBackground(new java.awt.Color(64, 123, 153));
 
-        MainForeignAdd.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainForeignAdd.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainForeignAdd.setText("Foreign Home Address:");
 
         javax.swing.GroupLayout Panel15Layout = new javax.swing.GroupLayout(Panel15);
@@ -434,7 +434,7 @@ public class MainFrame extends javax.swing.JFrame {
 
         Panel16.setBackground(new java.awt.Color(255, 255, 255));
 
-        MainForeingMailing.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        MainForeingMailing.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         MainForeingMailing.setText("Foreign Mailing Address:");
 
         javax.swing.GroupLayout Panel16Layout = new javax.swing.GroupLayout(Panel16);
@@ -466,13 +466,13 @@ public class MainFrame extends javax.swing.JFrame {
             .addGap(0, 8, Short.MAX_VALUE)
         );
 
-        SSSIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/image_2023-01-17_183204357-removebg-preview (2).png"))); // NOI18N
+        SSSIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/image_2023-01-17_183204357-removebg-preview (2).png"))); 
 
-        MainIntro1.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
+        MainIntro1.setFont(new java.awt.Font("Segoe UI", 1, 20)); 
         MainIntro1.setForeground(new java.awt.Color(255, 255, 255));
         MainIntro1.setText("Republic of the Philippines");
 
-        MainIntro2.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
+        MainIntro2.setFont(new java.awt.Font("Segoe UI", 1, 36)); 
         MainIntro2.setForeground(new java.awt.Color(255, 255, 255));
         MainIntro2.setText("Social Security System");
 
@@ -588,7 +588,7 @@ public class MainFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     public static void main(String args[]) {
        
@@ -599,7 +599,7 @@ public class MainFrame extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    
     private javax.swing.JLabel AddContactInfo;
     private javax.swing.JPanel Frame1;
     private javax.swing.JLabel MainAdd;
@@ -651,5 +651,5 @@ public class MainFrame extends javax.swing.JFrame {
     private javax.swing.JPanel SidePanel;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel26;
-    // End of variables declaration//GEN-END:variables
+    
 }
