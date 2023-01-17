@@ -11,7 +11,7 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
     }
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+  
     private void initComponents() {
 
         LoginPanel = new javax.swing.JPanel();
@@ -34,23 +34,23 @@ public class Login extends javax.swing.JFrame {
 
         LoginPanel.setBackground(new java.awt.Color(0, 102, 153));
 
-        LoginLb.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        LoginLb.setFont(new java.awt.Font("Segoe UI", 0, 24)); 
         LoginLb.setForeground(new java.awt.Color(255, 255, 255));
         LoginLb.setText("Login");
 
-        IntroLb.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        IntroLb.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         IntroLb.setForeground(new java.awt.Color(255, 255, 255));
         IntroLb.setText("Hello! Let's get started");
 
-        UsernameLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        UsernameLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         UsernameLb.setForeground(new java.awt.Color(255, 255, 255));
         UsernameLb.setText("Username");
 
-        PasswordLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        PasswordLb.setFont(new java.awt.Font("Segoe UI", 1, 16));
         PasswordLb.setForeground(new java.awt.Color(255, 255, 255));
         PasswordLb.setText("Password");
 
-        LoginBt.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        LoginBt.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         LoginBt.setForeground(new java.awt.Color(0, 153, 255));
         LoginBt.setText("Login");
         LoginBt.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(204, 204, 204), null));
@@ -60,7 +60,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        SignUp.setFont(new java.awt.Font("Segoe UI", 1, 13)); // NOI18N
+        SignUp.setFont(new java.awt.Font("Segoe UI", 1, 13)); 
         SignUp.setForeground(new java.awt.Color(255, 255, 255));
         SignUp.setText("Sign up");
         SignUp.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -70,19 +70,19 @@ public class Login extends javax.swing.JFrame {
         });
 
         Icon1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Icon1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/customer_20px.png"))); // NOI18N
+        Icon1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/customer_20px.png"))); 
 
-        Message1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        Message1.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         Message1.setForeground(new java.awt.Color(255, 255, 255));
         Message1.setText("Don't have an account?");
 
         PasswordField.setBackground(new java.awt.Color(0, 102, 153));
-        PasswordField.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        PasswordField.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         PasswordField.setForeground(new java.awt.Color(255, 255, 255));
         PasswordField.setBorder(null);
 
         UsernameField.setBackground(new java.awt.Color(0, 102, 153));
-        UsernameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        UsernameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         UsernameField.setForeground(new java.awt.Color(255, 255, 255));
         UsernameField.setBorder(null);
         UsernameField.addActionListener(new java.awt.event.ActionListener() {
@@ -99,7 +99,7 @@ public class Login extends javax.swing.JFrame {
         Passwordline.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         Icon2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Icon2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/eye_20px.png"))); // NOI18N
+        Icon2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/eye_20px.png"))); 
         Icon2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Icon2MouseClicked(evt);
@@ -107,7 +107,7 @@ public class Login extends javax.swing.JFrame {
         });
 
         Icon3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Icon3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/eye_20px.png"))); // NOI18N
+        Icon3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login/icons/eye_20px.png"))); 
         Icon3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Icon3MouseClicked(evt);
@@ -208,13 +208,13 @@ public class Login extends javax.swing.JFrame {
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void UsernameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_UsernameFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_UsernameFieldActionPerformed
+    private void UsernameFieldActionPerformed(java.awt.event.ActionEvent evt) {
+        
+    }
 
-    private void LoginBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginBtActionPerformed
+    private void LoginBtActionPerformed(java.awt.event.ActionEvent evt) {
 
         String username = UsernameField.getText ();
         String password = PasswordField.getPassword().toString();
@@ -245,9 +245,9 @@ public class Login extends javax.swing.JFrame {
                 
             }
             
-    }//GEN-LAST:event_LoginBtActionPerformed
+    }//LoginBtActionPerformed
     
-    private void Icon2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Icon2MouseClicked
+    private void Icon2MouseClicked(java.awt.event.MouseEvent evt) {
         PasswordField.setEchoChar((char)0);
         Icon2.setVisible(false);
         Icon2.setEnabled(false);
@@ -255,7 +255,7 @@ public class Login extends javax.swing.JFrame {
         Icon3.setEnabled(true);
     }//GEN-LAST:event_Icon2MouseClicked
 
-    private void Icon3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Icon3MouseClicked
+    private void Icon3MouseClicked(java.awt.event.MouseEvent evt) {
         PasswordField.setEchoChar((char)8226);
         Icon2.setVisible(true);
         Icon2.setEnabled(true);
@@ -263,7 +263,7 @@ public class Login extends javax.swing.JFrame {
         Icon3.setEnabled(false);
     }//GEN-LAST:event_Icon3MouseClicked
 
-    private void SignUpMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SignUpMouseClicked
+    private void SignUpMouseClicked(java.awt.event.MouseEvent evt) {
         SignUpLog sign = new SignUpLog();
         sign.setVisible(true);
         this.dispose();
@@ -279,7 +279,7 @@ public class Login extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+
     private javax.swing.JLabel Icon1;
     private javax.swing.JLabel Icon2;
     private javax.swing.JLabel Icon3;
@@ -295,5 +295,5 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JTextField UsernameField;
     private javax.swing.JLabel UsernameLb;
     private javax.swing.JLabel Usernameline;
-    // End of variables declaration//GEN-END:variables
+
 }
