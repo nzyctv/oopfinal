@@ -13,8 +13,7 @@ public class SignUpLog extends javax.swing.JFrame {
         initComponents();
     }
 
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+
     private void initComponents() {
 
         LoginPanel = new javax.swing.JPanel();
@@ -40,23 +39,23 @@ public class SignUpLog extends javax.swing.JFrame {
 
         LoginPanel.setBackground(new java.awt.Color(0, 102, 153));
 
-        RegisterLb.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        RegisterLb.setFont(new java.awt.Font("Segoe UI", 0, 24));
         RegisterLb.setForeground(new java.awt.Color(255, 255, 255));
         RegisterLb.setText("Register");
 
-        IntroRegisterLb.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        IntroRegisterLb.setFont(new java.awt.Font("Segoe UI", 0, 14)); 
         IntroRegisterLb.setForeground(new java.awt.Color(255, 255, 255));
         IntroRegisterLb.setText("Hello! Create your account");
 
-        UsernameLbRegister.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        UsernameLbRegister.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         UsernameLbRegister.setForeground(new java.awt.Color(255, 255, 255));
         UsernameLbRegister.setText("Username");
 
-        RegisterPasswordLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        RegisterPasswordLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         RegisterPasswordLb.setForeground(new java.awt.Color(255, 255, 255));
         RegisterPasswordLb.setText("Password");
 
-        RegisterBt.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        RegisterBt.setFont(new java.awt.Font("Segoe UI", 1, 14)); 
         RegisterBt.setForeground(new java.awt.Color(0, 153, 255));
         RegisterBt.setText("Register");
         RegisterBt.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(204, 204, 204), null));
@@ -67,12 +66,12 @@ public class SignUpLog extends javax.swing.JFrame {
         });
 
         RegisterPasswordField.setBackground(new java.awt.Color(0, 102, 153));
-        RegisterPasswordField.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        RegisterPasswordField.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         RegisterPasswordField.setForeground(new java.awt.Color(255, 255, 255));
         RegisterPasswordField.setBorder(null);
 
         RegisterUsernameField.setBackground(new java.awt.Color(0, 102, 153));
-        RegisterUsernameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        RegisterUsernameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         RegisterUsernameField.setForeground(new java.awt.Color(255, 255, 255));
         RegisterUsernameField.setBorder(null);
         RegisterUsernameField.addActionListener(new java.awt.event.ActionListener() {
@@ -88,12 +87,12 @@ public class SignUpLog extends javax.swing.JFrame {
         RegisterPasswordline.setText("________________________________________________________________________________");
         RegisterPasswordline.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
-        RegisterFirstnameLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        RegisterFirstnameLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         RegisterFirstnameLb.setForeground(new java.awt.Color(255, 255, 255));
         RegisterFirstnameLb.setText("First Name");
 
         RegisterFirstnameField.setBackground(new java.awt.Color(0, 102, 153));
-        RegisterFirstnameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        RegisterFirstnameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         RegisterFirstnameField.setForeground(new java.awt.Color(255, 255, 255));
         RegisterFirstnameField.setBorder(null);
         RegisterFirstnameField.addActionListener(new java.awt.event.ActionListener() {
@@ -105,12 +104,12 @@ public class SignUpLog extends javax.swing.JFrame {
         RegisterLastnameLine.setForeground(new java.awt.Color(255, 255, 255));
         RegisterLastnameLine.setText("________________________________________________________________________________");
 
-        RegisterLastnameLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        RegisterLastnameLb.setFont(new java.awt.Font("Segoe UI", 1, 16)); 
         RegisterLastnameLb.setForeground(new java.awt.Color(255, 255, 255));
         RegisterLastnameLb.setText("Last Name");
 
         RegisterLastnameField.setBackground(new java.awt.Color(0, 102, 153));
-        RegisterLastnameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
+        RegisterLastnameField.setFont(new java.awt.Font("Segoe UI", 0, 13)); 
         RegisterLastnameField.setForeground(new java.awt.Color(255, 255, 255));
         RegisterLastnameField.setBorder(null);
         RegisterLastnameField.addActionListener(new java.awt.event.ActionListener() {
@@ -126,7 +125,7 @@ public class SignUpLog extends javax.swing.JFrame {
         RegisterMessage.setForeground(new java.awt.Color(255, 255, 255));
         RegisterMessage.setText("Already signed up?");
 
-        BacktoLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
+        BacktoLogin.setFont(new java.awt.Font("Segoe UI", 1, 12)); 
         BacktoLogin.setForeground(new java.awt.Color(255, 255, 255));
         BacktoLogin.setText("Login");
         BacktoLogin.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -227,9 +226,9 @@ public class SignUpLog extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void RegisterBtActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterBtActionPerformed
+    private void RegisterBtActionPerformed(java.awt.event.ActionEvent evt) {
 
         String regusername = RegisterUsernameField.getText ();
         String regpassword = String.valueOf(RegisterPasswordField.getPassword());
@@ -259,25 +258,25 @@ public class SignUpLog extends javax.swing.JFrame {
         }
          
         
-    }//GEN-LAST:event_RegisterBtActionPerformed
+    }//RegisterBtActionPerformed
     
-    private void RegisterUsernameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterUsernameFieldActionPerformed
+    private void RegisterUsernameFieldActionPerformed(java.awt.event.ActionEvent evt) {
         
-    }//GEN-LAST:event_RegisterUsernameFieldActionPerformed
+    }//RegisterUsernameFieldActionPerformed
 
-    private void RegisterFirstnameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterFirstnameFieldActionPerformed
+    private void RegisterFirstnameFieldActionPerformed(java.awt.event.ActionEvent evt) {
        
-    }//GEN-LAST:event_RegisterFirstnameFieldActionPerformed
+    }//RegisterFirstnameFieldActionPerformed
 
-    private void RegisterLastnameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RegisterLastnameFieldActionPerformed
+    private void RegisterLastnameFieldActionPerformed(java.awt.event.ActionEvent evt) {
        
-    }//GEN-LAST:event_RegisterLastnameFieldActionPerformed
+    }//RegisterLastnameFieldActionPerformed
 
-    private void BacktoLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BacktoLoginMouseClicked
+    private void BacktoLoginMouseClicked(java.awt.event.MouseEvent evt) {
         Login log = new Login();
         log.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_BacktoLoginMouseClicked
+    }//BacktoLoginMouseClicked
 
     public static void main(String args[]) throws Exception {
 
@@ -289,7 +288,7 @@ public class SignUpLog extends javax.swing.JFrame {
     }
 
    
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    //variables
     private javax.swing.JLabel BacktoLogin;
     private javax.swing.JLabel IntroRegisterLb;
     private javax.swing.JPanel LoginPanel;
@@ -308,7 +307,7 @@ public class SignUpLog extends javax.swing.JFrame {
     private javax.swing.JTextField RegisterUsernameField;
     private javax.swing.JLabel RegisterUsernameline;
     private javax.swing.JLabel UsernameLbRegister;
-    // End of variables declaration//GEN-END:variables
+   
 
     
 }
